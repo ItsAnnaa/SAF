@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/putih">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="639dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginBottom="-118dp"
+        app:srcCompat="@drawable/circle_hijau" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="284dp"
+        android:fontFamily="sans-serif"
+        android:text="Step Ketiga"
+        android:textColor="@color/putih"
+        android:textSize="18dp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="135dp"
+        android:fontFamily="sans-serif"
+        android:text="Masukan Ph Tanahmu"
+        android:textColor="@color/hitam"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="224dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="180dp"
+        android:text="Masukan Ph Tanahmu Lalu Biarkan Sistem Menganalisa"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif"
+        android:text="Selamat Datang"
+        android:textColor="@color/hitam"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="57dp"
+        android:fontFamily="sans-serif"
+        android:text="Mau,Menanam Apa Kali Ini"
+        android:textColor="@color/hitam"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="192dp"
+        android:background="@null"
+        android:text="Cara merawat tanah"
+        android:onClick="pindah"
+        android:textAlignment="viewStart"
+        android:textColor="@color/putih"
+        android:textSize="35px"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="157dp"
+        android:text="Berikut Beberapa Cara Yang Bisa Kamu Lakukan"
+        android:textAlignment="viewStart"
+        android:textColor="@color/putih"
+        android:textSize="35px" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginBottom="107dp"
+        android:background="@null"
+        android:text="Rekomendasi tanaman"
+        android:textAlignment="viewStart"
+        android:textSize="35px"
+        android:textColor="@color/putih"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="82dp"
+        android:text="Berikut Tanaman Yang Cocok"
+        android:textAlignment="viewStart"
+        android:textColor="@color/putih"
+        android:textSize="35px" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="24dp"
+        android:background="@null"
+        app:srcCompat="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="271dp"
+        android:layout_height="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="324dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="Membajak Tanaman"
+        android:textAlignment="center"
+        android:textColor="@color/putih"
+        android:textSize="40dp"
+        android:textStyle="normal" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="276dp"
+        android:background="@null"
+        android:onClick="pindah"
+        app:srcCompat="@drawable/lanjut_lecil" />
+
+</RelativeLayout>
